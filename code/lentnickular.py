@@ -48,4 +48,4 @@ if __name__ == '__main__':
 
     im_weave = weave_images_together(args.image1,args.image2,px_per_column)
     im_weave.save('figures/lenticular_output.png',dpi=(IMAGE_DPI,IMAGE_DPI))
-    print('saved image to lenticular_output.png')
+    print('saved image to figures/lenticular_output.png')

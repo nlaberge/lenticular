@@ -14,3 +14,5 @@ Optional arguments:
 - -cpi (columns per inch, default = 49.66)
 - -width (output image width in inches, default = 6)
 - -height (output image height in inches, default = 4)
+
+![tonks, yawning](https://github.com/nlaberge/lenticular/blob/main/figures/lenticular_output.png)
