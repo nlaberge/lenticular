@@ -3,7 +3,7 @@
 
 Run lentnickular.py and provide the paths to the images that you want to merge. Example:
 
- ``code/lentnickular.py figures/yawn_a.JPG figures/yawn_b.JPG -dpi 600 -cpi 50``
+ ``python3 code/lentnickular.py figures/yawn_a.JPG figures/yawn_b.JPG -dpi 600 -cpi 50``
 
 Required arguments:
 - First image path

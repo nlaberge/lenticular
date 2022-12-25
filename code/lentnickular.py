@@ -1,7 +1,6 @@
 # import image libraries
 from PIL import Image
 
-
 def weave_images_together(im1_path,im2_path,px_per_column):
     # load two images from jpeg files
     im1 = Image.open(im1_path)
@@ -48,5 +47,5 @@ if __name__ == '__main__':
     px_per_column = image_width_px / num_colums
 
     im_weave = weave_images_together(args.image1,args.image2,px_per_column)
-    im_weave.save('lenticular_output.png',dpi=(IMAGE_DPI,IMAGE_DPI))
+    im_weave.save('figures/lenticular_output.png',dpi=(IMAGE_DPI,IMAGE_DPI))
     print('saved image to lenticular_output.png')
